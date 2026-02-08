@@ -1,3 +1,17 @@
+# demo example for if selected the region where no nodes are available. pods remains in pending state.
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: node-selector
+#   labels:
+#     purpose: "selector-demo"
+# spec:
+#   nodeSelector:
+#     topology.kubernetes.io/zone: us-east-1d
+#   containers:
+#   - name: nginx
+#     image: nginx
+---
 apiVersion: v1
 kind: Pod
 metadata:
