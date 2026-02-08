@@ -20,7 +20,7 @@ metadata:
     purpose: "selector-demo"
 spec:
   nodeSelector:
-    topology.kubernetes.io/zone: us-east-1d
+    topology.kubernetes.io/zone: us-east-1f
   containers:
   - name: nginx
     image: nginx
